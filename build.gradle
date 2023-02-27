@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+version 'unspecified'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation 'com.github.anpopo:moderd-auto-configuration:944478c6d6'
+    implementation 'com.github.anpopo:moderd:a72d06da05'
+}
