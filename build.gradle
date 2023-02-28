@@ -12,6 +12,6 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.anpopo:moderd:a72d06da05'
-    compileOnly 'com.github.anpopo:moderd-spring-boot-autoconfigure:5101371e35'
+    implementation 'com.github.anpopo:moderd:45e780e027'
+    implementation 'com.github.anpopo:moderd-spring-boot-autoconfigure:435b1c16bf'
 }
